@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Card2 from "../Card2/Card2.jsx";
 import { AllData } from "../Data/AllBedsheet.jsx";
 
-function BedsheetCards() {
+function BedsheetCards12() {
   const [cards, setCards] = useState(
     AllData.map((item, index) => ({ ...item, id: index + 1, count: 0 }))
   );
@@ -33,4 +33,4 @@ function BedsheetCards() {
   );
 }
 
-export default BedsheetCards;
+export default BedsheetCards12;

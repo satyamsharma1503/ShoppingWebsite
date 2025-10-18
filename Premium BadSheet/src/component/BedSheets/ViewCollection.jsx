@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { IoSearchOutline } from 'react-icons/io5';
 import { TbMenu2, TbMenu3 } from 'react-icons/tb';
-import BedsheetCards from './BedSheetCards';
+import BedsheetCards12 from './BedsheetCards12';
 
 function ViewCollection() {
    const [searchTerm, setSearchTerm] = useState("");
@@ -244,7 +244,7 @@ function ViewCollection() {
             <option>Sort by price :high to Low</option>
           </select>
         </div>
-        <BedsheetCards />
+        <BedsheetCards12/>
       </div>
     </div>
   );
